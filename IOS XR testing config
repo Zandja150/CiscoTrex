@@ -1,10 +1,10 @@
-interface HundredGigE0/0/1/0
+interface <Interface connected to the send port on The PC>
  description trex send port | JDA 12/30/25
  mtu 9216
  ipv4 address 11.11.11.1 255.255.255.0
  load-interval 30
 !
-interface HundredGigE0/0/1/1
+interface <Interface connected to the receive port on The PC>
  description trex receive port | JDA 12/30/25
  mtu 9216
  ipv4 address 12.12.12.1 255.255.255.0
